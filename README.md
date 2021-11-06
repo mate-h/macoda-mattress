@@ -9,15 +9,15 @@ Demo page is available at: [https://macoda-mattress.vercel.app](https://macoda-m
 ## Mattress parts
 Thick insert is made up of two parts:
 1. Latex white coloured foam
-2. Gel Infused blue coloured Memory foam
+2. Gel Infused blue coloured Memory foam. There is a net fabric over the whole thing which is white, but the foam core is this colour.
 
 Thin insert is a High Density Support Foam. Refer to link above for more details.
 
 ## Pages for customisation
 Three possible configurations are listed below with the order of pages indicated. The first page is the mattress with the cover on.
 1. **Mattress with cover**
-2. **Medium**: Mattress arrives in medium, with Premium Latex on top (thick blue).
-3. **Soft**: Gel Infused Memory Foam (thick white) on top.
+2. **Medium**: Mattress arrives in medium, with Premium Latex on top (thick white).
+3. **Soft**: Gel Infused Memory Foam (thick blue) on top.
 4. **Firm**: High Density Support Foam on top (thin insert).
 
 ## Design criteria
