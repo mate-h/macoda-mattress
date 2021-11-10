@@ -33,7 +33,7 @@ Three possible configurations are listed below with the order of pages indicated
 - create a keyframed animation of the customization action / flipping of the layers and the putting on the cover
 - create a ray-traced 3d render of the mattress and export it as a scollable animation
 - write code in HTML, Javascript and ThreeJS to render the mattress in a web component and add interactivity with buttons and scrolling
-- deploy the web component to static hosting so that you can embed it easily on the site using an iframe HTML element.
+- deploy the web component to static hosting so that it can embedded easily on the site using an iframe HTML element.
 
 ## Development
 
