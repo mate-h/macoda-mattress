@@ -35,3 +35,17 @@ Three possible configurations are listed below with the order of pages indicated
 - write code in HTML, Javascript and ThreeJS to render the mattress in a web component and add interactivity with buttons and scrolling
 - deploy the web component to static hosting so that you can embed it easily on the site using an iframe HTML element.
 
+## Development
+
+```bash
+git clone git@github.com:mate-h/macoda-mattress.git
+cd macoda-mattress
+npm i
+npm run dev
+```
+
+## Deployment
+
+```bash
+vercel -o macoda-mattress
+```
