@@ -1,3 +1,5 @@
+import { Fiber } from "./three-fiber";
+
 function App() {
   return (
     <>
@@ -11,6 +13,7 @@ function App() {
           src="/render-2.png"
         />
       </div>
+      <Fiber />
     </>
   );
 }
