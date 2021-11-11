@@ -1,5 +1,7 @@
+import { Environment, OrbitControls } from "@react-three/drei";
 import { Canvas, MeshProps, useFrame } from "@react-three/fiber";
-import { useRef, useState } from "react";
+import { Suspense, useRef, useState } from "react";
+import Model from "./mattress-model";
 
 function Box(props: any) {
   // This reference gives us direct access to the THREE.Mesh object
@@ -27,11 +29,19 @@ function Box(props: any) {
 
 export function Fiber() {
   return (
-    <Canvas>
-      <ambientLight />
-      <pointLight position={[10, 10, 10]} />
-      <Box position={[-1.2, 0, 0]} />
-      <Box position={[1.2, 0, 0]} />
+    <Canvas dpr={window.devicePixelRatio}>
+      <Suspense fallback={null}>
+        <OrbitControls
+          addEventListener={undefined}
+          hasEventListener={undefined}
+          removeEventListener={undefined}
+          dispatchEvent={undefined}
+        />
+        <Environment preset="sunset" background />
+        {/* <Box position={[-1.2, 0, 0]} />
+      <Box position={[1.2, 0, 0]} /> */}
+        <Model />
+      </Suspense>
     </Canvas>
   );
 }
